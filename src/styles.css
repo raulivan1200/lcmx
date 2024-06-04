@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+/* आप इस फ़ाइल में ग्लोबल स्टाइल्स जोड़ सकते हैं, और अन्य स्टाइल फ़ाइलों को भी आयात कर सकते हैं */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* होवर करने पर और चेक करने पर स्टाइल्स */
+
+.hovera:hover,.hovera:checked{
+    transition: all 0.3s ease-in-out;
+    color: #0f4c81 ;
+    font-weight: 300;
+}
+/* बटन पर होवर करने पर स्टाइल्स */
+
+.btnh:hover{
+    transition: all 0.3s ease-in-out;
+    transform:scale(1.02);
+    background-color: #0f4c81 ;
+    border: none;
+    color: white;
+    
+}
+/* फ़ॉन्ट पर होवर करने पर स्टाइल्स */
+
+.fontanim:hover{
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    color: #0f4c81 ;
+    text-decoration-color: #0f4c81;
+}

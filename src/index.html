@@ -1,13 +1,30 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <!-- मेटा टैग्स: कैरेक्टर सेट, टाइटल, बेस URL, व्यूपोर्ट सेटिंग्स -->
   <meta charset="utf-8">
-  <title>LcU</title>
+  <title>Lc Urvich</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- फेविकॉन -->
+  <link rel="icon" href="/assets/icons/logolc.svg">
+  
+  <!-- कस्टम फोंट्स जो @font-face का उपयोग करके परिभाषित हैं -->
+  <style>
+    @font-face {
+      font-family: 'GTSuperDisplay', serif;
+      src: url('assets/GT-Flexa-Compressed-Regular-Trial.woff2') format('woff2');
+      font-weight: 400;
+    }
+    @font-face {
+      font-family: 'GTWalsheim', sans-serif;
+      src: url('assets/GT-Walsheim-Regular-Trial.woff2') format('woff2');
+      font-weight: 300;
+    }
+  </style>
 </head>
 <body>
+  <!-- Angular ऐप का रूट कंपोनेंट -->
   <app-root></app-root>
 </body>
 </html>
